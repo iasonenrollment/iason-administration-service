@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: iason-administration-service
+  cloud:
+    discovery:
+      enabled: true
+    config:
+      discovery:
+        service-id: iason-config-server
+  profiles:
+    active: prod
